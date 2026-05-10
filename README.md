@@ -6,7 +6,7 @@ Tabungin adalah web app buat bantu kelompok nyatet tabungan bareng, rapi, simpel
 
 ## Screenshot
 
-![Screenshot Tabungin](https://imgur.com/gallery/default-image-Y9JF18N#Go6UNci)
+![Screenshot Tabungin](https://i.imgur.com/Go6UNci.jpg)
 
 ## Fitur utama
 
