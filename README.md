@@ -4,6 +4,10 @@
 
 Tabungin adalah web app buat bantu kelompok nyatet tabungan bareng, rapi, simpel, dan tetap privat. Semua data penting dienkripsi di browser sebelum disimpan, jadi isinya nggak kelihatan mentah-mentah di database.
 
+## Screenshot
+
+![Screenshot Tabungin](https://imgur.com/gallery/default-image-Y9JF18N#Go6UNci)
+
 ## Fitur utama
 
 - Tambah anggota grup
@@ -47,8 +51,8 @@ Kalau kamu mau bikin web app, cukup fokus ke ide dan UI-nya. Replit urus banyak 
 
 ## Pengembangan
 
-See [development.md](artifacts/tabungin/development.md) untuk detail.
+See [development.md](development.md) untuk detail.
 
 ## Contribution
 
-See [contribution.md](artifacts/tabungin/contribution.md) untuk detail.
+See [contribution.md](contribution.md) untuk detail.
