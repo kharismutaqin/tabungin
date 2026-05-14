@@ -39,20 +39,20 @@ export const GroupEntry: React.FC<GroupEntryProps> = ({ onEnter }) => {
   return (
     <div className="entry-page">
       <div className="entry-card animate-slide-up">
-        <div className="entry-icon-wrap">
-          <img
-            src={tabunginSvg}
-            alt="Celengan"
-            width={64}
-            height={64}
-            style={{
-              display: "block",
-              objectFit: "contain",
-              filter: iconFilter,
-              transition: "filter 0.4s ease",
-            }}
-          />
-        </div>
+        <img
+          src={tabunginSvg}
+          alt="Celengan"
+          width={64}
+          height={64}
+          className="entry-logo-animated"
+          style={{
+            display: "block",
+            objectFit: "contain",
+            filter: iconFilter,
+            transition: "filter 0.4s ease",
+            margin: "0 auto 1.5rem",
+          }}
+        />
 
         <h1 style={{ fontSize: "2rem", marginBottom: "0.4rem" }}>Tabungin</h1>
         <p
