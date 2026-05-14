@@ -3,10 +3,10 @@ import * as Lucide from "lucide-react";
 const { Eye, EyeOff, Lock } = Lucide;
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import tabunginSvg from "../assets/Tabungin.svg";
+import tabunginSvg from "../../public/favicon.svg";
 
 const THEME_ICON_FILTER: Record<string, string> = {
-  pink: "hue-rotate(312deg) saturate(1.3) brightness(1.05)",
+  pink: "hue-rotate(0deg) saturate(1.3) brightness(1.05)",
   purple: "hue-rotate(254deg) saturate(1.2) brightness(1.0)",
   blue: "hue-rotate(208deg) saturate(1.1) brightness(1.05)",
   green: "hue-rotate(138deg) saturate(1.2) brightness(1.0)",
@@ -39,20 +39,19 @@ export const GroupEntry: React.FC<GroupEntryProps> = ({ onEnter }) => {
   return (
     <div className="entry-page">
       <div className="entry-card animate-slide-up">
-        <div className="entry-icon-wrap">
-          <img
-            src={tabunginSvg}
-            alt="Celengan"
-            width={64}
-            height={64}
-            style={{
-              display: "block",
-              objectFit: "contain",
-              filter: iconFilter,
-              transition: "filter 0.4s ease",
-            }}
-          />
-        </div>
+        <img
+          src={tabunginSvg}
+          alt="Celengan"
+          width={64}
+          height={64}
+          style={{
+            display: "block",
+            objectFit: "contain",
+            filter: iconFilter,
+            transition: "filter 0.4s ease",
+            margin: "0 auto",
+          }}
+        />
 
         <h1 style={{ fontSize: "2rem", marginBottom: "0.4rem" }}>Tabungin</h1>
         <p

@@ -56,7 +56,7 @@ const THEMES = [
 /* CSS filter to colorize the Tabungin pig SVG per theme.
    Pig base hue ≈ 4° (salmon). Rotating to match each theme's primary hue. */
 const THEME_ICON_FILTER: Record<string, string> = {
-  pink: "hue-rotate(312deg) saturate(1.3) brightness(1.05)",
+  pink: "hue-rotate(0deg) saturate(1.3) brightness(1.05)",
   purple: "hue-rotate(254deg) saturate(1.2) brightness(1.0)",
   blue: "hue-rotate(208deg) saturate(1.1) brightness(1.05)",
   green: "hue-rotate(138deg) saturate(1.2) brightness(1.0)",
@@ -1057,8 +1057,8 @@ export const SavingsBoard: React.FC<SavingsBoardProps> = ({
           <img
             src={tabunginSvg}
             alt="Celengan"
-            width={38}
-            height={38}
+            width={28}
+            height={28}
             className="tabungin-logo"
             style={{ filter: THEME_ICON_FILTER[activeTheme] }}
           />
