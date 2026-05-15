@@ -1,60 +1,45 @@
-# Tabungin
+
+# Badoncek
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/kharismutaqin/tabungin/main/.github/assets/Rooster.svg" width="120" alt="Logo Tabungin">
-</p>
 
-Tabungin adalah web app buat bantu kelompok nyatet tabungan bareng, rapi, simpel, dan tetap privat. Semua data penting dienkripsi di browser sebelum disimpan, jadi isinya nggak kelihatan mentah-mentah di database.
+Badoncek adalah web app buat bantu kelompok nyatet tabungan bareng, rapi, simpel, dan tetap privat. Semua data pengguna terenkripsi di browser, jadi isinya nggak kelihatan mentah-mentah di database.
 
 ## Screenshot
 
 ![Screenshot Tabungin](https://raw.githubusercontent.com/kharismutaqin/tabungin/main/.github/assets/Screenshots.png)
 
-## Fitur utama
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f52e/512.gif" alt="🔮" width="32" height="32"> Fitur Utama
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/2795/512.gif" alt="➕" width="25" height="25" /> Tambah anggota grup
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/270d_1f3fb/512.gif" alt="✍" width="25" height="25" /> Catat setoran tiap anggota
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/270f_fe0f/512.gif" alt="✏" width="25" height="25" /> Edit dan hapus data setoran
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f3af/512.gif" alt="🎯" width="25" height="25"> Atur target tabungan grup
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f308/512.gif" alt="🌈" width="25" height="25"> Tema warna yang bisa diganti
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f5a8_fe0f/512.gif" alt="🖨" width="25" height="25"> Export dan import data
+- <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f512/512.gif" alt="🔒" width="25" height="25"> Keamanan berbasis enkripsi sisi client
 
-- Tambah anggota grup
-- Catat setoran tiap anggota
-- Edit dan hapus data setoran
-- Atur target tabungan grup
-- Tema warna yang bisa diganti
-- Export dan import data
-- Keamanan berbasis enkripsi sisi client
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f50e/512.gif" alt="🔎" width="32" height="32"> Cara Pakai
 
-## Cara pakai
+- <img src="https://cdn-icons-png.flaticon.com/128/10469/10469300.png" width="20"> Masuk ke halaman utama
+- <img src="https://cdn-icons-png.flaticon.com/128/10469/10469380.png" width="20"> Masukin kode grup
+- <img src="https://cdn-icons-png.flaticon.com/128/10469/10469456.png" width="20"> Kalau kamu pembuat kode pertama, kamu bisa:
 
-1. Masuk ke halaman utama
-2. Masukin kode grup
-3. Kalau kamu pembuat kode pertama, kamu bisa:
-   - tambah anggota
+   -  tambah anggota
    - edit data
    - hapus data
    - import/export
-   - reset data
-4. Kalau bukan pembuat pertama, kamu cuma bisa lihat data sesuai akses
+   - eset data
 
-## Keamanan
+- <img src="https://cdn-icons-png.flaticon.com/128/10469/10469552.png" width="20">  Kalau bukan pembuat pertama, kamu cuma bisa lihat data sesuai akses
 
-- Data disimpan dalam bentuk terenkripsi
-- Kode grup dipakai sebagai kunci enkripsi
-- Akses edit dibatasi ke pembuat kode pertama
-- Data tetap aman walau database dibaca langsung
+## <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f4bb/512.gif" alt="💻" width="32" height="32"> Keamanan
 
-## Bikin web app itu gampang banget di Replit
+- <img src="https://cdn-icons-png.flaticon.com/128/18327/18327061.png" width="20"> Data disimpan dalam bentuk terenkripsi
+- <img src="https://cdn-icons-png.flaticon.com/128/18326/18326968.png" width="20"> Kode grup dipakai sebagai kunci enkripsi
+- <img src="https://cdn-icons-png.flaticon.com/128/18326/18326977.png" width="20"> Akses edit dibatasi ke pembuat kode pertama
+- <img src="https://cdn-icons-png.flaticon.com/128/18326/18326999.png" width="20"> Data tetap aman walau database dibaca langsung
 
-Replit bikin proses bikin web app jadi jauh lebih gampang:
+## Pengembangan dan Kontribusi
 
-- langsung buka project, tanpa setup ribet
-- dependency tinggal install
-- preview langsung jalan di browser
-- workflow dev tinggal start
-- cocok buat belajar, prototyping, sampai production
-
-Kalau kamu mau bikin web app, cukup fokus ke ide dan UI-nya. Replit urus banyak bagian teknis yang biasanya bikin capek di awal.
-
-## Pengembangan
-
-See [development.md](development.md) untuk detail.
-
-## Contribution
-
-See [contribution.md](contribution.md) untuk detail.
+Cek [development.md](development.md)  dan [contribution.md](contribution.md) untuk detail.
